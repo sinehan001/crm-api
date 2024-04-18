@@ -1,0 +1,6 @@
+//Config MongoDB Credentials
+require('dotenv').config();
+
+module.exports = {
+    url: process.env.MONGODB_URI
+};
